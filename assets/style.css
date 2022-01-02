@@ -69,43 +69,36 @@ h2{
     bottom: 450px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.vl{
-    position: absolute;
-    border-left: 4.5px solid #6c4a4a;
-    height: 200px;
-    left:30%;
-    top:60%;
-}
-.vl2{
-    position: absolute;
-    border-left: 4.5px solid #6c4a4a; 
-    height:500px;
-    left: 30%;
-    top:100%;
- }
-.first{
+
+.first {
     margin-left: 200px;
     margin-top: 60px;
 }
 p{
     text-align: center;
     margin-left: 30%;
-    margin-top:-50;
-    font-size: 30px;
+    margin-top:-50px;
+    font-size: 25px;
 }
+
+
+
 .content{
     text-align: center;
     margin-left: 30%;
     margin-top: -50px;
 }
 
-.second{
-    margin-left: 200px;
-    margin-top:20%;
+
+.column{
+    float:left;
+    width:33.33%;
+    padding: 5px;
 }
-.third{
-    margin-left: 200px;
-    margin-top: 20%;
+.row::after{
+    content:"";
+    display: table;
+    clear:both;
 }
 
 ul{
@@ -117,39 +110,21 @@ ul>li{
     padding-right: 20px;
     text-decoration: underline;
 }
-.image-grid{
-    float:left;
-    --gap: 16px;
-    --num-cols:3;
-    --row-height:200px;
-    box-sizing: border-box;
-    padding: var(--gap);
-    display: grid;
-    grid-template-columns: repeat(var(--num-cols) lfr);
-}
-.glass{
-    width:40%;
-    float:left;
-    margin-left: 30px;
 
-}
-.glass img{
-    height: 300px;
-    float:center;
-}
+
 footer{
     background-color: #c89595;
-    padding:20px 35px;
+    padding:40px 35px;
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    top:8px;
+  
 }
 footer h1{
     color: #ededed;
     font-size: 25px;
-    margin: 0%;
+    margin: 0;
     text-decoration: none;
 }
 footer a{
@@ -159,9 +134,7 @@ footer a{
     justify-content:space-between;
     
 }
-footer nav{
-    margin:8px 0;
-}
+
 footer nav ul {
     display: flex;
     flex-wrap: wrap;
