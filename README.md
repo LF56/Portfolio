@@ -17,4 +17,4 @@ At the bottom, you can also find my email, phone number, and the link to my Gith
 
 
 ## Completed Assignment Link
-[Leah Fox's Portfolio](https://lf56.github.io/Accessibility-Challenge/)
+[Leah Fox's Portfolio](https://lf56.github.io/Portfolio/)
